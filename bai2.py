@@ -1,0 +1,1 @@
+print("ngoc hoc lap trinh")
