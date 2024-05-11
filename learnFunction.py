@@ -1,13 +1,11 @@
-def tong(n,s,g,h):
-    n = n + 2
-    g = g + 2 
-
-    return n+h
-
-
-
-
-a = tong(2,3,4,5)
-
-print(a)
+def cacLoaiQuan(arrayQuan):
+    for x in range(len(arrayQuan)):
+        if x == 2:
+            continue
+        if x == 3:
+            continue
+        print(arrayQuan[x])
+        
+listQuan = ["dai", "ngan", "lung", "quanongloe"]
+cacLoaiQuan(listQuan)
 
